@@ -1,0 +1,16 @@
+# rename me to config.yml
+
+app: application
+host: 
+cas_url:
+session_secret: 31f5a8141494f2e2feb70b8c73c89b84509e652b256d3de4623b860b18264c6609b3a24e01db1da179e8fd0505894dc80fe58daeae73e900c5abadacb7a5cb35
+database:
+  # production
+  adapter: "mysql2"
+  host: 'localhost'
+  username: 'root'
+  password: ''
+  database: 'noticeme'
+  # development
+  # adapter: "sqlite3"
+  # database: "db/noticeme.sqlite3"
