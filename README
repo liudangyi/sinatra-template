@@ -1,11 +1,1 @@
-Models:
-
-User:
-  - username
-  - password (encrypted)
-  has many traffics
-
-Traffic:
-  - time
-  - bytes
-  belongs to user
+Sinatra template
